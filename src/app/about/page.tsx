@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
@@ -72,7 +72,7 @@ export default function AboutPage() {
             <SectionReveal delay={1}>
               <div className="relative h-[500px]">
                 <Image
-                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/244761626_1715745961957187_1588629831128628003_n.jpg"
+                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/f1d4c812-e0fe-4445-bb03-18138ae905bb/244761626_1715745961957187_1588629831128628003_n.jpg"
                   alt="Posh KC story"
                   fill
                   className="object-cover"

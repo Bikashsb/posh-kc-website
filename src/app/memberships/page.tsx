@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import SectionReveal from "@/components/SectionReveal";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -109,7 +109,7 @@ export default function MembershipsPage() {
       <section className="relative pt-32 pb-20 bg-posh-dark text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/269736242_1759777000887416_6949414595763289026_n.jpg"
+            src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/8667c20c-176a-4d33-b712-4b33d7779ea5/269736242_1759777000887416_6949414595763289026_n.jpg"
             alt=""
             fill
             className="object-cover"
@@ -242,7 +242,7 @@ export default function MembershipsPage() {
             <SectionReveal delay={1}>
               <div className="relative h-[400px]">
                 <Image
-                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/277777882_1834121253452990_9203444710926996712_n-1.jpg"
+                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/881b2c4e-2c14-43b8-b705-d803a27ec785/277777882_1834121253452990_9203444710926996712_n-1.jpg"
                   alt="Posh KC membership"
                   fill
                   className="object-cover"

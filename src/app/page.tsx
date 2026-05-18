@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
@@ -18,7 +18,7 @@ const services = [
     title: "Blowouts & Styling",
     desc: "From wash & style to Hollywood Waves — look polished for any occasion. Starting at $35.",
     href: "/services",
-    img: "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/244761626_1715745961957187_1588629831128628003_n.jpg",
+    img: "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/f1d4c812-e0fe-4445-bb03-18138ae905bb/244761626_1715745961957187_1588629831128628003_n.jpg",
   },
   {
     title: "Makeup Services",
@@ -30,13 +30,13 @@ const services = [
     title: "Posh Bride",
     desc: "Trial, rehearsal & wedding day hair and makeup. Your complete bridal journey with us.",
     href: "/posh-bride",
-    img: "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/278939437_1847152505483198_2104908137125546696_n.jpg",
+    img: "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/b24171cb-d524-41f5-b1c2-d7369c353c3c/278939437_1847152505483198_2104908137125546696_n.jpg",
   },
   {
     title: "Posh Party",
     desc: "Hair & makeup for 6 + champagne + swag bags + Power & Light wristbands. $660 package.",
     href: "/posh-party",
-    img: "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/298982791_1936418589889922_8600208534332243872_n.jpg",
+    img: "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/bdfb5932-9ce2-4a81-9639-dacbf54b90cd/298982791_1936418589889922_8600208534332243872_n.jpg",
   },
 ];
 
@@ -275,7 +275,7 @@ export default function HomePage() {
             <SectionReveal delay={1}>
               <div className="relative h-[450px]">
                 <Image
-                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/269736242_1759777000887416_6949414595763289026_n.jpg"
+                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/8667c20c-176a-4d33-b712-4b33d7779ea5/269736242_1759777000887416_6949414595763289026_n.jpg"
                   alt="Posh KC membership"
                   fill
                   className="object-cover"
@@ -293,7 +293,7 @@ export default function HomePage() {
             <SectionReveal>
               <div className="relative h-[450px] overflow-hidden">
                 <Image
-                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/281565676_1865628560302259_4276349832979820465_n.jpg"
+                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/ad155b3c-1470-4515-a1a8-ac2b3b789f71/281565676_1865628560302259_4276349832979820465_n.jpg"
                   alt="Posh Party bachelorette hair KC"
                   fill
                   className="object-cover"

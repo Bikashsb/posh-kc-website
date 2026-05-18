@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import SectionReveal from "@/components/SectionReveal";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -60,7 +60,7 @@ export default function PoshBridePage() {
       {/* Hero */}
       <section className="relative h-[85vh] min-h-[560px] flex items-center overflow-hidden">
         <Image
-          src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/278939437_1847152505483198_2104908137125546696_n.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/b24171cb-d524-41f5-b1c2-d7369c353c3c/278939437_1847152505483198_2104908137125546696_n.jpg"
           alt="Wedding hair and makeup Kansas City"
           fill
           className="object-cover object-center"
@@ -134,7 +134,7 @@ export default function PoshBridePage() {
             <SectionReveal delay={1}>
               <div className="relative h-[500px]">
                 <Image
-                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/195982932_1619296511602133_6039444116842447037_n.jpg"
+                  src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/ccdda57e-0ff7-4050-ac2b-68f277ddad4c/195982932_1619296511602133_6039444116842447037_n.jpg"
                   alt="Bridal hair and makeup"
                   fill
                   className="object-cover"
@@ -235,9 +235,9 @@ export default function PoshBridePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {[
-              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/278939437_1847152505483198_2104908137125546696_n.jpg",
-              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/195982932_1619296511602133_6039444116842447037_n.jpg",
-              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/277750432_1833366923528423_3193626837039814556_n.jpg",
+              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/b24171cb-d524-41f5-b1c2-d7369c353c3c/278939437_1847152505483198_2104908137125546696_n.jpg",
+              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/ccdda57e-0ff7-4050-ac2b-68f277ddad4c/195982932_1619296511602133_6039444116842447037_n.jpg",
+              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/497b23a6-57f9-4485-8748-887515c15a6d/277750432_1833366923528423_3193624877039814556_n.jpg",
             ].map((img, i) => (
               <div key={i} className="relative h-64 overflow-hidden">
                 <Image src={img} alt={`Bridal work ${i + 1}`} fill className="object-cover hover:scale-105 transition-transform duration-500" />

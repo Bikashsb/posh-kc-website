@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import SectionReveal from "@/components/SectionReveal";
@@ -103,7 +103,7 @@ export default function ServicesPage() {
       <section className="relative pt-32 pb-16 bg-posh-purple text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/244761626_1715745961957187_1588629831128628003_n.jpg"
+            src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/f1d4c812-e0fe-4445-bb03-18138ae905bb/244761626_1715745961957187_1588629831128628003_n.jpg"
             alt=""
             fill
             className="object-cover"

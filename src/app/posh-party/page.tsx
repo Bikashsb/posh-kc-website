@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import SectionReveal from "@/components/SectionReveal";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -49,7 +49,7 @@ export default function PoshPartyPage() {
       {/* Hero */}
       <section className="relative h-[85vh] min-h-[560px] flex items-center overflow-hidden">
         <Image
-          src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/281565676_1865628560302259_4276349832979820465_n.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/ad155b3c-1470-4515-a1a8-ac2b3b789f71/281565676_1865628560302259_4276349832979820465_n.jpg"
           alt="Bachelorette party hair makeup Kansas City"
           fill
           className="object-cover object-center"
@@ -138,10 +138,10 @@ export default function PoshPartyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
-              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/298982791_1936418589889922_8600208534332243872_n.jpg",
-              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/306000079_516337510491447_6202244186304123306_n.jpg",
-              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/281565676_1865628560302259_4276349832979820465_n.jpg",
-              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/289758770_1895027984028983_6068103299200096023_n-1.jpg",
+              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/bdfb5932-9ce2-4a81-9639-dacbf54b90cd/298982791_1936418589889922_8600208534332243872_n.jpg",
+              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/ae718c36-3e2c-402c-8392-b085cbb676c2/306000079_516337510491447_6202244186304123306_n.jpg",
+              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/ad155b3c-1470-4515-a1a8-ac2b3b789f71/281565676_1865628560302259_4276349832979820465_n.jpg",
+              "https://images.squarespace-cdn.com/content/v1/632a669af1b1882f3a037d22/89ffea0e-6f05-47bb-9991-489f3b4c0630/289758770_1895027984028983_6068103299200096023_n-1.jpg",
             ].map((img, i) => (
               <div key={i} className="relative h-56 overflow-hidden">
                 <Image src={img} alt={`Posh Party ${i + 1}`} fill className="object-cover hover:scale-105 transition-transform duration-500" />
