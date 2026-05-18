@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme {
+  --color-posh-purple: #4a1080;
+  --color-posh-purple-dark: #360b5e;
+  --color-posh-purple-light: #7b2fbe;
+  --color-posh-lavender: #e8d5f5;
+  --color-posh-lavender-light: #f5edfb;
+  --color-posh-dark: #1a1a1a;
+  --color-posh-gray: #f8f6fb;
+  --font-heading: var(--font-montserrat);
+  --font-body: var(--font-lato);
+}
+
+body {
+  font-family: var(--font-lato), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out forwards;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fade-up 0.7s ease-out 0.15s forwards;
+  opacity: 0;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fade-up 0.7s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+.animate-fade-up-delay-3 {
+  animation: fade-up 0.7s ease-out 0.45s forwards;
+  opacity: 0;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.7s ease-out forwards;
+}
+
+.section-reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.65s ease-out,
+    transform 0.65s ease-out;
+}
+
+.section-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-reveal-delay-1 {
+  transition-delay: 0.1s;
+}
+.section-reveal-delay-2 {
+  transition-delay: 0.2s;
+}
+.section-reveal-delay-3 {
+  transition-delay: 0.3s;
+}
+.section-reveal-delay-4 {
+  transition-delay: 0.4s;
+}
